@@ -9,7 +9,7 @@
 .main .div {
   background-color: #0f1824;
   width: 1440px;
-  height: 6935px;
+  height: 6675px;
   position: relative;
 }
 
@@ -21,7 +21,7 @@
   left: 0;
 }
 
-.main .rectangle {
+.main .rectangle-main {
   position: absolute;
   width: 1440px;
   height: 1143px;
@@ -30,7 +30,7 @@
   background-color: #131a26;
 }
 
-.main .group {
+.main .group-main {
   position: absolute;
   width: 614px;
   height: 1281px;
@@ -38,7 +38,7 @@
   left: 413px;
 }
 
-.main .component {
+.main .component-main {
   position: absolute;
   width: 473px;
   height: 142px;
@@ -58,7 +58,7 @@
   filter: blur(50px);
 }
 
-.main .rectangle-2 {
+.main .rectangle-main-2 {
   position: absolute;
   width: 908px;
   height: 475px;
@@ -79,7 +79,7 @@
     1;
 }
 
-.main .frame {
+.main .frame-main {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -89,7 +89,7 @@
   left: 265px;
 }
 
-.main .frame-2 {
+.main .frame-frame {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -98,7 +98,7 @@
   flex: 0 0 auto;
 }
 
-.main .transform-your {
+.main .p {
   position: relative;
   width: 842px;
   margin-top: -1px;
@@ -112,14 +112,14 @@
 }
 
 .main .text-wrapper {
-  color: #bb77ff;
-}
-
-.main .span {
   color: #e1d6d3;
 }
 
-.main .with-symphony-cloud {
+.main .span {
+  color: #bb77ff;
+}
+
+.main .text-wrapper-2 {
   position: relative;
   width: 688px;
   font-family: "Instrument Sans", Helvetica;
@@ -131,7 +131,7 @@
   line-height: 28px;
 }
 
-.main .frame-wrapper {
+.main .frame-frame-wrapper {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -140,16 +140,16 @@
   flex: 0 0 auto;
 }
 
-.main .frame-3 {
-  display: inline-flex;
-  flex-direction: column;
+.main .frame-frame-2 {
   align-items: flex-start;
   gap: 24px;
+  display: inline-flex;
+  flex-direction: column;
   position: relative;
   flex: 0 0 auto;
 }
 
-.main .frame-4 {
+.main .frame-frame-3 {
   display: inline-flex;
   align-items: center;
   gap: 36px;
@@ -157,7 +157,7 @@
   flex: 0 0 auto;
 }
 
-.main .frame-5 {
+.main .frame-frame-4 {
   display: flex;
   flex-direction: column;
   width: 438px;
@@ -174,7 +174,7 @@
   border-color: #243140;
 }
 
-.main .frame-6 {
+.main .frame-frame-5 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -191,12 +191,12 @@
   justify-content: center;
   gap: 10px;
   padding: 4px;
+  box-shadow: 0px 1px 14px #ce81f3ad;
   position: relative;
   flex: 0 0 auto;
-  box-shadow: 0px 1px 14px #ce81f3ad;
 }
 
-.main .frame-7 {
+.main .frame-frame-6 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -227,7 +227,7 @@
   border-color: #7d54a5;
 }
 
-.main .vector {
+.main .vector-frame {
   position: absolute;
   width: 8px;
   height: 6px;
@@ -235,7 +235,7 @@
   left: 19px;
 }
 
-.main .frame-8 {
+.main .frame-frame-7 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -244,7 +244,7 @@
   flex: 0 0 auto;
 }
 
-.main .text-wrapper-2 {
+.main .text-wrapper-3 {
   position: relative;
   width: 283px;
   margin-top: -1px;
@@ -256,7 +256,7 @@
   line-height: 28px;
 }
 
-.main .p {
+.main .text-wrapper-4 {
   position: relative;
   align-self: stretch;
   font-family: "Instrument Sans", Helvetica;
@@ -267,16 +267,16 @@
   line-height: 23.5px;
 }
 
-.main .frame-9 {
-  display: flex;
-  flex-direction: column;
+.main .frame-frame-8 {
   width: 438px;
-  align-items: flex-start;
-  gap: 6px;
   padding: 24px;
-  position: relative;
   margin-top: -0.12px;
   margin-bottom: -0.12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
   margin-right: -1px;
   background-color: #1a2331;
   border-radius: 16px;
@@ -284,36 +284,36 @@
   border-color: #243140;
 }
 
-.main .frame-10 {
+.main .frame-frame-9 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 8px;
-  position: relative;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
-}
-
-.main .frame-11 {
-  margin-top: -10px;
-  margin-left: -11px;
+  gap: 8px;
   position: relative;
   flex: 0 0 auto;
 }
 
-.main .frame-12 {
+.main .frame-frame-10 {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -10px;
+  margin-left: -11px;
+}
+
+.main .frame-frame-11 {
   display: flex;
+  align-self: stretch;
+  width: 100%;
   align-items: flex-start;
   gap: 16px;
   position: relative;
-  align-self: stretch;
-  width: 100%;
   flex: 0 0 auto;
 }
 
-.main .text-wrapper-3 {
+.main .text-wrapper-5 {
   position: relative;
   flex: 1;
   margin-top: -1px;
@@ -325,7 +325,7 @@
   line-height: 28px;
 }
 
-.main .symphony-cloud {
+.main .text-wrapper-6 {
   position: relative;
   width: 398px;
   margin-right: -8px;
@@ -337,7 +337,7 @@
   line-height: 23.5px;
 }
 
-.main .frame-13 {
+.main .frame-frame-12 {
   display: inline-flex;
   align-items: flex-start;
   gap: 36px;
@@ -345,14 +345,11 @@
   flex: 0 0 auto;
 }
 
-.main .frame-14 {
+.main .frame-frame-13 {
   display: flex;
-  flex-direction: column;
   width: 440px;
-  align-items: flex-start;
   gap: 6px;
   padding: 24px;
-  position: relative;
   margin-top: -1px;
   margin-bottom: -1px;
   margin-left: -1px;
@@ -360,9 +357,12 @@
   border-radius: 16px;
   border: 1px solid;
   border-color: #243140;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
 }
 
-.main .frame-15 {
+.main .frame-frame-14 {
   display: flex;
   align-items: center;
   align-self: stretch;
@@ -372,7 +372,7 @@
   flex: 0 0 auto;
 }
 
-.main .frame-16 {
+.main .frame-frame-15 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -383,13 +383,13 @@
   flex-grow: 1;
 }
 
-.main .solar-document-add {
+.main .solardocument-add {
   position: relative;
   width: 36px;
   flex: 0 0 auto;
 }
 
-.main .frame-17 {
+.main .frame-frame-16 {
   display: flex;
   flex-direction: column;
   width: 438px;
@@ -413,7 +413,7 @@
     1;
 }
 
-.main .frame-18 {
+.main .frame-frame-17 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -428,7 +428,7 @@
   flex: 0 0 auto;
 }
 
-.main .frame-19 {
+.main .frame-main-2 {
   display: flex;
   flex-direction: column;
   width: 438px;
@@ -437,14 +437,14 @@
   padding: 24px;
   position: absolute;
   top: 839px;
-  left: 265px;
+  left: 501px;
   background-color: #1a2331;
   border-radius: 16px;
   border: 1px solid;
   border-color: #243140;
 }
 
-.main .frame-20 {
+.main .frame-frame-18 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -452,7 +452,7 @@
   flex: 0 0 auto;
 }
 
-.main .boost-cost-wrapper {
+.main .boostcostefficiency-wrapper {
   display: inline-flex;
   align-items: flex-start;
   gap: 16px;
@@ -460,7 +460,7 @@
   flex: 0 0 auto;
 }
 
-.main .text-wrapper-4 {
+.main .casestudies-main {
   position: absolute;
   width: 842px;
   top: 1361px;
@@ -474,7 +474,7 @@
   line-height: 33.6px;
 }
 
-.main .frame-21 {
+.main .frame-main-3 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -484,7 +484,7 @@
   left: 302px;
 }
 
-.main .text-wrapper-5 {
+.main .text-wrapper-7 {
   position: relative;
   width: 399px;
   margin-top: -1px;
@@ -496,7 +496,7 @@
   line-height: 33.6px;
 }
 
-.main .text-wrapper-6 {
+.main .text-wrapper-8 {
   position: relative;
   width: 399px;
   font-family: "Instrument Sans", Helvetica;
@@ -514,17 +514,17 @@
   justify-content: center;
   gap: 10px;
   padding: 14px 24px;
+  position: relative;
+  flex: 0 0 auto;
   border-radius: 8px;
   border: 1px solid;
   border-color: #6e40c9;
   box-shadow: 0px 2px 4px #442557;
-  position: relative;
-  flex: 0 0 auto;
   all: unset;
   box-sizing: border-box;
 }
 
-.main .schedule-a-call {
+.main .scheduleacall {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -536,7 +536,7 @@
   line-height: normal;
 }
 
-.main .image {
+.main .image-main {
   position: absolute;
   width: 400px;
   height: 260px;
@@ -544,7 +544,7 @@
   left: 738px;
 }
 
-.main .frame-22 {
+.main .frame-main-4 {
   display: inline-flex;
   align-items: flex-start;
   gap: 13px;
@@ -617,14 +617,14 @@
 }
 
 .main .union {
+  position: absolute;
   width: 783px;
   height: 383px;
-  left: 32px;
-  position: absolute;
   top: 0;
+  left: 32px;
 }
 
-.main .microsoftteams-image {
+.main .microsoftteams {
   position: absolute;
   width: 915px;
   height: 470px;
@@ -632,7 +632,7 @@
   left: 16px;
 }
 
-.main .rectangle-3 {
+.main .rectangle-main-3 {
   position: absolute;
   width: 914px;
   height: 247px;
@@ -641,7 +641,7 @@
   background: linear-gradient(180deg, rgb(16, 24, 36) 0%, rgba(16, 24, 36, 0) 100%);
 }
 
-.main .frame-23 {
+.main .frame-main-5 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -651,7 +651,7 @@
   left: 12px;
 }
 
-.main .ellipse-wrapper {
+.main .component {
   position: absolute;
   width: 473px;
   height: 142px;
@@ -659,7 +659,7 @@
   left: 224px;
 }
 
-.main .frame-24 {
+.main .frame-frame-19 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -668,7 +668,7 @@
   flex: 0 0 auto;
 }
 
-.main .text-wrapper-7 {
+.main .text-wrapper-9 {
   position: relative;
   width: 842px;
   margin-top: -1px;
@@ -681,7 +681,7 @@
   line-height: 33.6px;
 }
 
-.main .it-s-a-ready-to-use {
+.main .itsaready-to {
   position: relative;
   width: 921px;
   font-family: "Instrument Sans", Helvetica;
@@ -693,7 +693,7 @@
   line-height: 28px;
 }
 
-.main .frame-25 {
+.main .frame-frame-20 {
   display: flex;
   flex-direction: column;
   width: 905px;
@@ -710,7 +710,7 @@
   border-color: #243140;
 }
 
-.main .frame-26 {
+.main .frame-frame-21 {
   display: inline-flex;
   align-items: center;
   gap: 36px;
@@ -719,7 +719,7 @@
   mix-blend-mode: luminosity;
 }
 
-.main .frame-27 {
+.main .frame-frame-22 {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -733,7 +733,7 @@
   height: 36px;
 }
 
-.main .text-wrapper-8 {
+.main .alertmanager {
   position: relative;
   width: fit-content;
   font-family: "Instrument Sans", Helvetica;
@@ -746,7 +746,7 @@
   white-space: nowrap;
 }
 
-.main .group-2 {
+.main .group-frame {
   position: relative;
   width: 106.77px;
   height: 38.42px;
@@ -764,13 +764,13 @@
   height: 32px;
 }
 
-.main .frame-28 {
+.main .frame-frame-23 {
   position: relative;
   flex: 0 0 auto;
   mix-blend-mode: luminosity;
 }
 
-.main .frame-29 {
+.main .frame-main-6 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -781,7 +781,7 @@
   left: 65px;
 }
 
-.main .empowering {
+.main .overlap-group-wrapper-2 {
   position: relative;
   width: 815px;
   height: 144px;
@@ -792,7 +792,7 @@
   height: 144px;
 }
 
-.main .empowering-wrapper {
+.main .div-wrapper-2 {
   position: absolute;
   width: 815px;
   height: 144px;
@@ -800,7 +800,7 @@
   left: 0;
 }
 
-.main .empowering-2 {
+.main .div-2 {
   position: absolute;
   width: 408px;
   top: 35px;
@@ -815,11 +815,11 @@
   line-height: 36px;
 }
 
-.main .text-wrapper-9 {
+.main .text-wrapper-10 {
   color: #e1d5d3;
 }
 
-.main .text-wrapper-10 {
+.main .text-wrapper-11 {
   font-family: "Instrument Sans", Helvetica;
   font-weight: 600;
   color: transparent;
@@ -839,7 +839,7 @@
   opacity: 0;
 }
 
-.main .text-wrapper-11 {
+.main .text-wrapper-12 {
   position: relative;
   width: 730px;
   margin-top: -1px;
@@ -852,7 +852,7 @@
   line-height: 28.8px;
 }
 
-.main .frame-30 {
+.main .frame {
   display: inline-flex;
   align-items: flex-start;
   gap: 12px;
@@ -860,22 +860,22 @@
   flex: 0 0 auto;
 }
 
-.main .schedule-a-call-wrapper {
+.main .button-frame {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   padding: 14px 40px;
+  position: relative;
+  flex: 0 0 auto;
   background-color: #6e40c9;
   border-radius: 8px;
   box-shadow: 0px 2px 4px #442557;
-  position: relative;
-  flex: 0 0 auto;
   all: unset;
   box-sizing: border-box;
 }
 
-.main .schedule-a-call-2 {
+.main .scheduleacall-2 {
   position: relative;
   width: fit-content;
   margin-top: -1.5px;
@@ -887,7 +887,7 @@
   line-height: normal;
 }
 
-.main .overlap-2 {
+.main .main-wrapper {
   position: absolute;
   width: 1440px;
   height: 778px;
@@ -896,7 +896,7 @@
   background-color: #131a26;
 }
 
-.main .frame-31 {
+.main .frame-main-7 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -906,7 +906,7 @@
   left: 100px;
 }
 
-.main .text-wrapper-12 {
+.main .text-wrapper-13 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -920,7 +920,7 @@
   white-space: nowrap;
 }
 
-.main .frame-32 {
+.main .frame-frame-24 {
   display: flex;
   flex-wrap: wrap;
   width: 1240px;
@@ -931,7 +931,7 @@
   flex: 0 0 auto;
 }
 
-.main .frame-33 {
+.main .frame-frame-25 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -944,13 +944,13 @@
   border-color: #1a2331;
 }
 
-.main .mask-group {
+.main .maskgroup {
   position: relative;
   width: 332px;
   height: 206px;
 }
 
-.main .frame-34 {
+.main .frame-frame-26 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -961,7 +961,7 @@
   flex: 0 0 auto;
 }
 
-.main .stories-insight-wrapper {
+.main .storiesinsight-wrapper {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -973,7 +973,7 @@
   border-radius: 4px;
 }
 
-.main .stories-insight {
+.main .storiesinsight {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -987,7 +987,7 @@
   white-space: nowrap;
 }
 
-.main .text-wrapper-13 {
+.main .text-wrapper-14 {
   position: relative;
   align-self: stretch;
   font-family: "Instrument Sans", Helvetica;
@@ -998,7 +998,7 @@
   line-height: 24px;
 }
 
-.main .frame-35 {
+.main .frame-frame-27 {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -1008,7 +1008,7 @@
   flex: 0 0 auto;
 }
 
-.main .frame-36 {
+.main .frame-frame-28 {
   display: flex;
   width: 179.5px;
   align-items: center;
@@ -1024,7 +1024,7 @@
   border-radius: 13px;
 }
 
-.main .frame-37 {
+.main .frame-frame-29 {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -1033,7 +1033,7 @@
   border-radius: 4px;
 }
 
-.main .frame-38 {
+.main .frame-frame-30 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1043,7 +1043,7 @@
   flex: 0 0 auto;
 }
 
-.main .text-wrapper-14 {
+.main .bobjonhson {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -1056,7 +1056,7 @@
   white-space: nowrap;
 }
 
-.main .text-wrapper-15 {
+.main .founderceo {
   position: relative;
   width: fit-content;
   font-family: "Instrument Sans", Helvetica;
@@ -1068,7 +1068,7 @@
   white-space: nowrap;
 }
 
-.main .text-wrapper-16 {
+.main .element {
   position: relative;
   width: fit-content;
   font-family: "Instrument Sans", Helvetica;
@@ -1081,24 +1081,24 @@
   white-space: nowrap;
 }
 
-.main .button-2 {
+.main .scheduleacall-wrapper {
   display: flex;
   width: 283px;
   align-items: center;
   justify-content: center;
   gap: 10px;
   padding: 14px 24px;
+  position: relative;
+  flex: 0 0 auto;
   border-radius: 8px;
   border: 1px solid;
   border-color: #6e40c9;
   box-shadow: 0px 2px 4px #442557;
-  position: relative;
-  flex: 0 0 auto;
   all: unset;
   box-sizing: border-box;
 }
 
-.main .header {
+.main .header-main {
   display: flex;
   width: 1440px;
   align-items: center;
@@ -1112,7 +1112,7 @@
   -webkit-backdrop-filter: blur(54px) brightness(100%);
 }
 
-.main .group-3 {
+.main .header {
   position: relative;
   width: 237.46px;
   height: 23.88px;
@@ -1126,7 +1126,7 @@
   left: 0;
 }
 
-.main .ellipse-stroke {
+.main .ellipsestroke {
   position: absolute;
   width: 19px;
   height: 12px;
@@ -1134,7 +1134,7 @@
   left: 0;
 }
 
-.main .ellipse-stroke-2 {
+.main .ellipsestroke-2 {
   position: absolute;
   width: 12px;
   height: 12px;
@@ -1142,7 +1142,7 @@
   left: 0;
 }
 
-.main .ellipse-stroke-3 {
+.main .ellipsestroke-3 {
   position: absolute;
   width: 7px;
   height: 5px;
@@ -1150,7 +1150,7 @@
   left: 8px;
 }
 
-.main .ellipse-stroke-4 {
+.main .ellipsestroke-4 {
   position: absolute;
   width: 12px;
   height: 12px;
@@ -1158,7 +1158,7 @@
   left: 17px;
 }
 
-.main .ellipse-stroke-5 {
+.main .ellipsestroke-5 {
   position: absolute;
   width: 7px;
   height: 5px;
@@ -1166,7 +1166,7 @@
   left: 13px;
 }
 
-.main .ellipse-stroke-6 {
+.main .ellipsestroke-6 {
   position: absolute;
   width: 19px;
   height: 12px;
@@ -1174,7 +1174,7 @@
   left: 10px;
 }
 
-.main .group-4 {
+.main .group-group {
   position: absolute;
   width: 200px;
   height: 24px;
@@ -1190,7 +1190,7 @@
   left: 131px;
 }
 
-.main .rectangle-4 {
+.main .rectangle {
   position: absolute;
   width: 3px;
   height: 19px;
@@ -1198,7 +1198,7 @@
   left: 147px;
 }
 
-.main .ellipse-stroke-7 {
+.main .ellipsestroke-7 {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -1206,7 +1206,7 @@
   left: 152px;
 }
 
-.main .rectangle-stroke {
+.main .rectanglestroke {
   position: absolute;
   width: 13px;
   height: 14px;
@@ -1214,15 +1214,15 @@
   left: 170px;
 }
 
-.main .union-2 {
+.main .union-group {
+  position: absolute;
   width: 15px;
   height: 19px;
-  left: 184px;
-  position: absolute;
   top: 0;
+  left: 184px;
 }
 
-.main .subtract-2 {
+.main .subtract-group {
   position: absolute;
   width: 130px;
   height: 24px;
@@ -1230,7 +1230,7 @@
   left: 0;
 }
 
-.main .frame-39 {
+.main .frame-header {
   display: inline-flex;
   align-items: center;
   gap: 24px;
@@ -1249,7 +1249,7 @@
   border-radius: 40px;
 }
 
-.main .frame-40 {
+.main .frame-menu {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1258,7 +1258,7 @@
   flex: 0 0 auto;
 }
 
-.main .text-wrapper-17 {
+.main .blog {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -1270,15 +1270,15 @@
   line-height: normal;
 }
 
-.main .button-3 {
+.main .button-2 {
+  position: relative;
+  flex: 0 0 auto;
   margin-top: -28px;
   margin-bottom: -48px;
   margin-right: -44px;
-  position: relative;
-  flex: 0 0 auto;
 }
 
-.main .overlap-3 {
+.main .overlap-2 {
   position: absolute;
   width: 908px;
   height: 644px;
@@ -1287,7 +1287,7 @@
   border-radius: 40px;
 }
 
-.main .frame-41 {
+.main .frame-main-8 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -1298,13 +1298,35 @@
   left: 33px;
 }
 
+.main .frame-2 {
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.main .text-wrapper-15 {
+  position: relative;
+  width: 750px;
+  font-family: "Instrument Sans", Helvetica;
+  font-weight: 400;
+  color: #d8daeccc;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
 .main .play-circle-filled-wrapper {
   position: relative;
   width: 772px;
   height: 385px;
   border-radius: 16px;
   overflow: hidden;
-  background-image: url(./img/rectangle-164.png);
+  background-image: url(./img/rectangle164-31-frame180-31-frame304-31-main.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -1317,7 +1339,7 @@
   left: 351px;
 }
 
-.main .rectangle-5 {
+.main .rectangle-main-4 {
   position: absolute;
   width: 908px;
   height: 644px;
@@ -1337,19 +1359,19 @@
     1;
 }
 
-.main .container {
+.main .container-main {
   display: flex;
   width: 1440px;
   align-items: center;
   justify-content: space-between;
   padding: 24px 100px;
   position: absolute;
-  top: 6870px;
+  top: 6610px;
   left: 0;
   background-color: #0a101a;
 }
 
-.main .text-wrapper-18 {
+.main .text-wrapper-16 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -1361,7 +1383,7 @@
   line-height: normal;
 }
 
-.main .links {
+.main .links-container {
   display: inline-flex;
   align-items: flex-start;
   gap: 32px;
@@ -1369,16 +1391,16 @@
   flex: 0 0 auto;
 }
 
-.main .frame-42 {
+.main .frame-main-9 {
   display: inline-flex;
   align-items: center;
   gap: 42px;
   position: absolute;
-  top: 6661px;
+  top: 6464px;
   left: 100px;
 }
 
-.main .frame-43 {
+.main .frame-frame-31 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1387,7 +1409,7 @@
   flex: 0 0 auto;
 }
 
-.main .group-5 {
+.main .group-frame-2 {
   position: relative;
   width: 277px;
   height: 28px;
@@ -1401,7 +1423,7 @@
   left: 0;
 }
 
-.main .ellipse-stroke-8 {
+.main .ellipsestroke-8 {
   position: absolute;
   width: 22px;
   height: 14px;
@@ -1409,7 +1431,7 @@
   left: 0;
 }
 
-.main .ellipse-stroke-9 {
+.main .ellipsestroke-9 {
   position: absolute;
   width: 15px;
   height: 14px;
@@ -1417,7 +1439,7 @@
   left: 0;
 }
 
-.main .ellipse-stroke-10 {
+.main .ellipsestroke-10 {
   position: absolute;
   width: 9px;
   height: 6px;
@@ -1425,7 +1447,7 @@
   left: 10px;
 }
 
-.main .ellipse-stroke-11 {
+.main .ellipsestroke-11 {
   position: absolute;
   width: 15px;
   height: 14px;
@@ -1433,7 +1455,7 @@
   left: 20px;
 }
 
-.main .ellipse-stroke-12 {
+.main .ellipsestroke-12 {
   position: absolute;
   width: 9px;
   height: 6px;
@@ -1441,7 +1463,7 @@
   left: 16px;
 }
 
-.main .ellipse-stroke-13 {
+.main .ellipsestroke-13 {
   position: absolute;
   width: 22px;
   height: 14px;
@@ -1449,7 +1471,7 @@
   left: 12px;
 }
 
-.main .group-6 {
+.main .group-group-2 {
   position: absolute;
   width: 233px;
   height: 28px;
@@ -1457,7 +1479,7 @@
   left: 44px;
 }
 
-.main .subtract-3 {
+.main .subtract-2 {
   position: absolute;
   width: 16px;
   height: 18px;
@@ -1465,7 +1487,7 @@
   left: 153px;
 }
 
-.main .rectangle-6 {
+.main .rectangle-2 {
   position: absolute;
   width: 4px;
   height: 22px;
@@ -1473,7 +1495,7 @@
   left: 171px;
 }
 
-.main .ellipse-stroke-14 {
+.main .ellipsestroke-14 {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -1481,7 +1503,7 @@
   left: 178px;
 }
 
-.main .rectangle-stroke-2 {
+.main .rectanglestroke-2 {
   position: absolute;
   width: 15px;
   height: 17px;
@@ -1489,15 +1511,15 @@
   left: 198px;
 }
 
-.main .union-3 {
+.main .union-2 {
+  position: absolute;
   width: 18px;
   height: 22px;
-  left: 215px;
-  position: absolute;
   top: 0;
+  left: 215px;
 }
 
-.main .subtract-4 {
+.main .subtract-3 {
   position: absolute;
   width: 152px;
   height: 28px;
@@ -1505,7 +1527,7 @@
   left: 0;
 }
 
-.main .frame-44 {
+.main .frame-frame-32 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1514,7 +1536,7 @@
   flex: 0 0 auto;
 }
 
-.main .subscribe-to {
+.main .div-3 {
   position: relative;
   width: 273px;
   margin-top: -1px;
@@ -1526,11 +1548,11 @@
   line-height: 16.8px;
 }
 
-.main .text-wrapper-19 {
+.main .text-wrapper-17 {
   font-weight: 700;
 }
 
-.main .text-wrapper-20 {
+.main .text-wrapper-18 {
   font-family: "Instrument Sans", Helvetica;
   font-weight: 400;
   color: #cacacc;
@@ -1539,23 +1561,7 @@
   line-height: 16.8px;
 }
 
-.main .button-4 {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 14px 24px;
-  border-radius: 8px;
-  border: 1px solid;
-  border-color: #6e40c9;
-  box-shadow: 0px 2px 4px #442557;
-  position: relative;
-  flex: 0 0 auto;
-  all: unset;
-  box-sizing: border-box;
-}
-
-.main .frame-45 {
+.main .frame-frame-33 {
   display: inline-flex;
   align-items: flex-start;
   gap: 56px;
@@ -1563,7 +1569,7 @@
   flex: 0 0 auto;
 }
 
-.main .about-symphony-wrapper {
+.main .aboutsymphony-wrapper {
   display: inline-flex;
   align-items: flex-start;
   gap: 10px;
@@ -1574,7 +1580,7 @@
   border-radius: 8px;
 }
 
-.main .about-symphony {
+.main .aboutsymphony {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -1587,7 +1593,7 @@
   white-space: nowrap;
 }
 
-.main .frame-46 {
+.main .frame-main-10 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -1605,7 +1611,7 @@
   flex: 0 0 auto;
 }
 
-.main .group-wrapper {
+.main .group-frame-wrapper {
   display: inline-flex;
   align-items: flex-start;
   gap: 114px;
@@ -1613,7 +1619,7 @@
   flex: 0 0 auto;
 }
 
-.main .group-7 {
+.main .group-frame-3 {
   position: relative;
   width: 213px;
   height: 537px;
@@ -1658,7 +1664,7 @@
   opacity: 0;
 }
 
-.main .group-8 {
+.main .group-group-3 {
   position: absolute;
   width: 210px;
   height: 510px;
@@ -1696,8 +1702,8 @@
   position: absolute;
   width: 105px;
   height: 255px;
-  top: -2883px;
-  left: 26266px;
+  top: -2735px;
+  left: 30141px;
   transform: rotate(-180deg);
 }
 
@@ -1733,12 +1739,12 @@
   border-color: #be8024;
 }
 
-.main .overlap-4 {
+.main .overlap-3 {
   position: absolute;
   width: 108px;
   height: 255px;
-  top: 3405px;
-  left: -26266px;
+  top: 3257px;
+  left: -30141px;
 }
 
 .main .component-6 {
@@ -1757,32 +1763,32 @@
   left: 3px;
 }
 
-.main .frame-47 {
+.main .frame-3 {
   position: relative;
   width: 584px;
   height: 537px;
 }
 
-.main .frame-48 {
+.main .frame-frame-34 {
   display: inline-flex;
-  flex-direction: column;
   height: 537px;
-  align-items: flex-start;
   gap: 29px;
+  flex-direction: column;
+  align-items: flex-start;
   position: relative;
 }
 
-.main .frame-49 {
-  display: flex;
-  flex-direction: column;
+.main .frame-frame-35 {
   width: 586px;
-  align-items: flex-start;
-  gap: 6px;
   padding: 16px 24px;
-  position: relative;
   flex: 0 0 auto;
   margin-top: -1px;
   margin-left: -1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
   margin-right: -1px;
   background-color: #1a2331;
   border-radius: 16px;
@@ -1790,7 +1796,7 @@
   border-color: #243140;
 }
 
-.main .frame-50 {
+.main .frame-frame-36 {
   display: inline-flex;
   align-items: center;
   gap: 21px;
@@ -1806,7 +1812,7 @@
   border-radius: 8px;
 }
 
-.main .text-wrapper-21 {
+.main .text-wrapper-19 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -1819,7 +1825,7 @@
   white-space: nowrap;
 }
 
-.main .text-wrapper-22 {
+.main .text-wrapper-20 {
   position: relative;
   align-self: stretch;
   font-family: "Instrument Sans", Helvetica;
@@ -1830,7 +1836,7 @@
   line-height: 28px;
 }
 
-.main .frame-51 {
+.main .frame-frame-37 {
   display: flex;
   flex-direction: column;
   width: 586px;
@@ -1848,7 +1854,7 @@
   opacity: 0.5;
 }
 
-.main .frame-52 {
+.main .frame-frame-38 {
   display: inline-flex;
   align-items: center;
   gap: 16px;
@@ -1865,7 +1871,7 @@
   border: 1px solid;
 }
 
-.main .frame-53 {
+.main .frame-frame-39 {
   display: flex;
   flex-direction: column;
   width: 586px;
@@ -1885,16 +1891,16 @@
 }
 
 .main .ellipse-16 {
+  background-color: #be8024;
+  border-color: #be8024b5;
   position: relative;
   width: 16px;
   height: 16px;
-  background-color: #be8024;
   border-radius: 8px;
   border: 1px solid;
-  border-color: #be8024b5;
 }
 
-.main .frame-54 {
+.main .frame-frame-40 {
   display: flex;
   flex-direction: column;
   width: 586px;
@@ -1914,16 +1920,16 @@
 }
 
 .main .ellipse-17 {
+  background-color: #0091e2;
+  border-color: #0091e2b5;
   position: relative;
   width: 16px;
   height: 16px;
-  background-color: #0091e2;
   border-radius: 8px;
   border: 1px solid;
-  border-color: #0091e2b5;
 }
 
-.main .frame-55 {
+.main .frame-main-11 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -1933,25 +1939,13 @@
   left: 221px;
 }
 
-.main .frame-56 {
+.main .frame-frame-41 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 14px;
   position: relative;
   flex: 0 0 auto;
-}
-
-.main .you-re-not-just {
-  position: relative;
-  width: 750px;
-  font-family: "Instrument Sans", Helvetica;
-  font-weight: 400;
-  color: #d8daeccc;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 28px;
 }
 
 .main .component-8 {
@@ -1963,7 +1957,7 @@
   flex: 0 0 auto;
 }
 
-.main .frame-57 {
+.main .frame-4 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1972,15 +1966,15 @@
   flex: 0 0 auto;
 }
 
-.main .frame-58 {
+.main .frame-frame-42 {
   display: flex;
   align-items: center;
+  gap: 16px;
   padding: 24px 32px;
   align-self: stretch;
   width: 100%;
   border-radius: 16px;
   opacity: 0.5;
-  gap: 16px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -1994,20 +1988,20 @@
   border-color: #bb77ff;
 }
 
-.main .frame-59 {
+.main .frame-frame-43 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
   padding: 24px 32px;
-  position: relative;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
   background-color: #101824;
   border-radius: 16px;
   border: 1px solid;
   border-color: #2e3849;
+  position: relative;
+  flex: 0 0 auto;
 }
 
 .main .ellipse-19 {
@@ -2018,7 +2012,7 @@
   border-radius: 8px;
 }
 
-.main .frame-60 {
+.main .frame-5 {
   display: inline-flex;
   flex-direction: column;
   height: 466px;
@@ -2040,7 +2034,7 @@
     1;
 }
 
-.main .our-devops-team {
+.main .text-wrapper-21 {
   position: relative;
   width: 364px;
   margin-top: -1px;
